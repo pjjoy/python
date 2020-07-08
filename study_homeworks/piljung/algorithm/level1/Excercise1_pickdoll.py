@@ -14,4 +14,4 @@ def solution(board, moves):
                 else:
                     basket.append(kkofriend)  # 리스트 마지막 항목에 더하기
                 break
- return answer
+    return answer
