@@ -10,7 +10,6 @@ def solution(n, lost, reserve):
         student[i - 1] += 1
     for j in lost:
         student[j - 1] -= 1
-    print(student)
 
     for i, j in enumerate(student):
         print(i, j)
@@ -29,7 +28,6 @@ def solution(n, lost, reserve):
                     else:
                         student[i - 1] -= 1
                         student[i] += 1
-        print(student)
 
     answer = n - student.count(0)
     print(answer)
