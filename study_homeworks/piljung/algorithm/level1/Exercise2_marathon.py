@@ -26,3 +26,29 @@ def solution(participant, completion):
         participant.remove(man) # 완주자를 참가자에서 제외하기
         answer = participant[0] # 항상 1명만 완주하지 못한것이므로 다 제외하고 남은 하나의 원소(?) 추출
     return answer
+
+##효율성 높일 필요 있음
+
+'''
+#다른 풀이 1
+import collections
+
+def solution(participant, completion):
+    answer = collections.Counter(participant) - collections.Counter(completion)
+    return list(answer.keys())[0]
+
+
+#다른 풀이 2
+def solution(participant, completion):
+    answer = ''
+    temp = 0
+    dic = {}
+    for part in participant:
+        dic[hash(part)] = part
+        temp += int(hash(part))
+    for com in completion:
+        temp -= hash(com)
+    answer = dic[temp]
+
+    return answer
+'''
