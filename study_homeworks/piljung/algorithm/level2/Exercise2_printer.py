@@ -11,7 +11,7 @@ def solution(priorities, location):
     while bin:
         idx,val = bin.pop(0)
         if max(priorities) > val:
-            bin.append((idx,val))    # 앞에서 없애고 뒤에 더함함
+            bin.append((idx,val))    # 앞에서 없애고 뒤에 더함ㅡ 함
        else:
             answer+=1
             priorities.remove(val)
