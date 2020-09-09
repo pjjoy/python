@@ -34,3 +34,30 @@ def solution(n):
 
     return "".join(map(str, answer[::-1]))  # answer에 담긴 것을 역순으로 붙이기 (* 문자로 변환하여 붙여야 오류나지 않음)
                                             # list[start point : end point +1 : skip (-1은 역순)]
+
+
+'''
+[다른 풀이]
+# 다시 한번 함수를 재귀호출
+
+def solution(n):
+    if n<=3:
+        return '124'[n-1]
+    else:
+        q, r = divmod(n-1, 3)
+        return solution(q) + '124'[r]  #0이 없기 때문에 대상 수에서 1을 뺀다음에 나중에 나머지 계산할때 하나 더해주는 구조
+        
+>>직관적으로 이해되지 않으면 아래 출처 예시 확인하기
+출처:https://leedakyeong.tistory.com/entry/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-124-%EB%82%98%EB%9D%BC%EC%9D%98-%EC%88%AB%EC%9E%90-in-python
+\
+## divmod(a, b) : a를 b로 나누었을 때 몫과 나머지를 tuple의 형태로 return
+
+> divmod(9, 3)
+(3, 0)
+
+> divmod(10, 3)
+(3, 1)
+
+
+
+'''
