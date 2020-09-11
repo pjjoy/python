@@ -31,7 +31,7 @@ def solution(bridge_length, weight, truck_weights):
 solution(bridge_length,weight,truck_weights)
 
 #좋은 풀이
-def solution(bridge_length, weight, truck_weights):
+def solution_1(bridge_length, weight, truck_weights):
     q=[0]*bridge_length
     sec=0
     while q:
@@ -42,8 +42,10 @@ def solution(bridge_length, weight, truck_weights):
                 q.append(truck_weights.pop(0))
             else:
                 q.append(0)
+    print(sec)
     return sec
 
+solution_1(bridge_length,weight,truck_weights)
 
 #클래스 사용
 import collections
