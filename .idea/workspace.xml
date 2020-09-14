@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fd5088f-c371-4fab-9f2f-7669b8954841" name="Default Changelist" comment="piljung commit">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_homeworks/piljung/algorithm/level1/Exercise29_commonMultipleDivisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_homeworks/piljung/algorithm/level1/Exercise29_commonMultipleDivisor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_homeworks/piljung/algorithm/level1/Exercise35_XNmultiple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kim_piljung01\PycharmProjects\python\study_homeworks\piljung\algorithm\level1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Exercise16_primenum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599804769031</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="piljung commit">
+      <created>1600040177586</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600040177586</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,23 +242,36 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="piljung commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="piljung commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="750" y="244" key="#Exercise16_primenum" timestamp="1595822509305">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
     <state x="750" y="244" key="#Exercise16_primenum/1920.-5.1827.1080/0.0.1827.1080@0.0.1827.1080" timestamp="1595822509305" />
+    <state x="677" y="354" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600040115562">
+      <screen x="0" y="0" width="1827" height="1080" />
+    </state>
+    <state x="677" y="354" key="#com.intellij.fileTypes.FileTypeChooser/1920.-5.1827.1080/0.0.1827.1080@0.0.1827.1080" timestamp="1600040115562" />
+    <state x="204" y="121" key="MergeDialog" timestamp="1600039913945">
+      <screen x="0" y="0" width="1827" height="1080" />
+    </state>
+    <state x="204" y="121" key="MergeDialog/1920.-5.1827.1080/0.0.1827.1080@0.0.1827.1080" timestamp="1600039913945" />
+    <state x="580" y="331" key="MultipleFileMergeDialog" timestamp="1600039917337">
+      <screen x="0" y="0" width="1827" height="1080" />
+    </state>
+    <state x="580" y="331" key="MultipleFileMergeDialog/1920.-5.1827.1080/0.0.1827.1080@0.0.1827.1080" timestamp="1600039917337" />
     <state x="819" y="356" key="Vcs.Push.Dialog.v2" timestamp="1599867736491">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
     <state x="819" y="356" key="Vcs.Push.Dialog.v2/0.0.1827.1080@0.0.1827.1080" timestamp="1599867736491" />
     <state x="524" y="347" key="Vcs.Push.Dialog.v2/1920.-5.1827.1080/0.0.1827.1080@0.0.1827.1080" timestamp="1599804637005" />
     <state x="2444" y="342" key="Vcs.Push.Dialog.v2/1920.-5.1827.1080/0.0.1827.1080@1920.-5.1827.1080" timestamp="1595816431417" />
-    <state x="881" y="566" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599867915381">
+    <state x="881" y="566" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600040003706">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
     <state x="881" y="566" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1827.1080@0.0.1827.1080" timestamp="1599867915381" />
-    <state x="881" y="566" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-5.1827.1080/0.0.1827.1080@0.0.1827.1080" timestamp="1598857236811" />
+    <state x="881" y="566" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-5.1827.1080/0.0.1827.1080@0.0.1827.1080" timestamp="1600040003706" />
+    <state x="2801" y="561" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-5.1827.1080/0.0.1827.1080@1920.-5.1827.1080" timestamp="1600039963955" />
   </component>
 </project>
