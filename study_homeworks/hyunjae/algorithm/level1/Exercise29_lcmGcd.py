@@ -1,9 +1,16 @@
-n = 3
-m = 12
+n = 4
+m = 7
 
 def solution(n, m):
-    answer = []
-    return answer
+    def lcd(n,m):
+        mod = n % m
+        while mod:
+            n, m = m, mod
+            mod = n % m
+        return m
+    return [lcd(n,m), n*m//lcd(n,m)]
+
+print(solution(14,4))
 
 """
 두 수를 입력받아 두 수의 최대공약수와 최소공배수를 반환하는 함수, solution을 완성해 보세요. 배열의 맨 앞에 최대공약수,
