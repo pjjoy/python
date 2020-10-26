@@ -38,6 +38,19 @@ def solution_1(n, arr1, arr2):
         answer.append(a12)
     return answer
 
+
+def solution_2(n,arr1,arr2):
+    answer = []
+    for a1, a2 in zip(arr1,arr2):
+        a12 = str(bin(a1|a2))[2:]
+        a12 = '0' * (n - len(a12)) + a12
+        a12 = a12.replace('1','#')
+        a12 = a12.replace('0', ' ')
+        answer.append(a12)
+    return answer
+
+
+print(solution_2(5,[9, 20, 28, 18, 11],[30, 1, 21, 17, 28]))
 """
 [문제]
 네오는 평소 프로도가 비상금을 숨겨놓는 장소를 알려줄 비밀지도를 손에 넣었다.
