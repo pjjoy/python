@@ -1,4 +1,4 @@
-# 14.  맵게
+# 14.  더 맵게
 
 import heapq
 def solution(scoville, K):
